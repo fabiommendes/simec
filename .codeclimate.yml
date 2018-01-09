@@ -12,14 +12,7 @@ engines:
   phan:
     enabled: true
     config:
-      file_extensions: "php"
+      file_extensions: [ "php", "inc", "phtml"]
 
   phpmd:
     enabled: true
-
-  shellcheck:
-    enabled: true
-
-ratings:
-  paths:
-  - /**.php
