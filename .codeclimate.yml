@@ -2,6 +2,9 @@ engines:
 
   phpcodesniffer:
     enabled: true
+    config:
+      ignore_warnings: true
+      file_extensions: "php,inc,phtml"
 
   duplication:
     enabled: false
